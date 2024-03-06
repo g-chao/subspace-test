@@ -1,0 +1,32 @@
+{
+  "name": "subspace1_lib",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "15 || 16"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "subspace2_lib": "workspace:*"
+  },
+  "dependenciesMeta": {
+    "subspace2_lib": {
+      "injected": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2",
+    "react": "~15.7.0"
+  }
+}
