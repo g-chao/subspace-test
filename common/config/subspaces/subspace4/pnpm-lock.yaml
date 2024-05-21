@@ -8,7 +8,7 @@ importers:
 
   .: {}
 
-  ../../../subspaces/subspace4/lib:
+  ../../../subspaces/subspace4/subspace4_lib:
     devDependencies:
       '@types/node':
         specifier: ^20.8.10

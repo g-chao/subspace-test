@@ -8,11 +8,11 @@ importers:
 
   .: {}
 
-  ../../../subspaces/subspace2/lib:
+  ../../../subspaces/subspace2/subspace2_lib:
     dependencies:
       subspace3_lib:
-        specifier: link:../../subspace3/lib
-        version: link:../../subspace3/lib
+        specifier: link:../../subspace3/subspace3_lib
+        version: link:../../subspace3/subspace3_lib
     devDependencies:
       '@types/node':
         specifier: ^20.8.10

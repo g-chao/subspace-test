@@ -15,7 +15,7 @@
    * path segment in the "$schema" field for all your Rush config files.  This will ensure
    * correct error-underlining and tab-completion for editors such as VS Code.
    */
-  "rushVersion": "5.116.0",
+  "rushVersion": "5.124.6",
   /**
    * The next field selects which package manager should be installed and determines its version.
    * Rush installs its own local copy of the package manager to ensure that your build process
@@ -404,22 +404,22 @@
     // }
     {
       "packageName": "subspace1_lib",
-      "projectFolder": "subspaces/subspace1/lib",
+      "projectFolder": "subspaces/subspace1/subspace1_lib",
       "subspaceName": "subspace1"
     },
     {
       "packageName": "subspace2_lib",
-      "projectFolder": "subspaces/subspace2/lib",
+      "projectFolder": "subspaces/subspace2/subspace2_lib",
       "subspaceName": "subspace2"
     },
     {
       "packageName": "subspace3_lib",
-      "projectFolder": "subspaces/subspace3/lib",
+      "projectFolder": "subspaces/subspace3/subspace3_lib",
       "subspaceName": "subspace3"
     },
     {
       "packageName": "subspace4_lib",
-      "projectFolder": "subspaces/subspace4/lib",
+      "projectFolder": "subspaces/subspace4/subspace4_lib",
       "subspaceName": "subspace4"
     }
   ]
