@@ -23,9 +23,6 @@ importers:
       typescript:
         specifier: ^5.2.2
         version: 5.3.3
-    dependenciesMeta:
-      subspace2_lib:
-        injected: true
 
 packages:
 

@@ -19,11 +19,6 @@
   "dependencies": {
     "subspace2_lib": "workspace:*"
   },
-  "dependenciesMeta": {
-    "subspace2_lib": {
-      "injected": true
-    }
-  },
   "devDependencies": {
     "@types/node": "^20.8.10",
     "typescript": "^5.2.2",
