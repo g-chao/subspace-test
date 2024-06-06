@@ -4,24 +4,26 @@
   "description": "",
   "module": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "tsc -w"
+    "build": "heft build --clean",
+    "test": "heft test --clean",
+    "lint": "eslint src/**",
+    "prepublishOnly": "heft build --clean"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
-    "react": "15 || 16"
-  },
   "files": [
     "dist"
   ],
   "dependencies": {
-    "subspace2_lib": "workspace:*"
+    "subspace2_lib": "workspace:*",
+    "react": "~15.7.0"
   },
   "devDependencies": {
-    "@types/node": "^20.8.10",
-    "typescript": "^5.2.2",
-    "react": "~15.7.0"
+    "@rushstack/heft": "^0.64.3",
+    "@rushstack/heft-node-rig": "^2.4.5",
+    "@types/heft-jest": "1.0.6",
+    "@types/node": "18.17.15",
+    "typescript": "~5.3.3"
   }
 }

@@ -93,6 +93,7 @@ lib-esnext
 lib-commonjs
 lib-shim
 dist
+lib
 dist-storybook
 *.scss.ts
 *.sass.ts

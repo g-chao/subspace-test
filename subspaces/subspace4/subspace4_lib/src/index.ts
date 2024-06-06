@@ -1,3 +1,3 @@
-export function subspace3_lib() {
-  return 'This is from subspace3_lib';
+export function subspace4_lib() {
+  return 'This is from subspace4_lib';
 }
