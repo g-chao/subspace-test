@@ -4415,7 +4415,7 @@ packages:
     id: file:../../../subspaces/subspace3/subspace3_lib
     name: subspace3_lib
     peerDependencies:
-      react: 15 || 16
+      react: 16 || 17
     dependencies:
       react: 15.7.0
       subspace4_lib: file:../../../subspaces/subspace4/subspace4_lib(react@15.7.0)
@@ -4426,7 +4426,7 @@ packages:
     id: file:../../../subspaces/subspace4/subspace4_lib
     name: subspace4_lib
     peerDependencies:
-      react: 15 || 16
+      react: 16 || 17
     dependencies:
       react: 15.7.0
     dev: false

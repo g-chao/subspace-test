@@ -1,0 +1,23 @@
+{
+  "alerts": [
+    {
+      "title": "Node.js upgrade",
+      "details": [
+        "This Thursday we will block all pipelines that are still using Node 16."
+      ],
+      "detailsUrl": "https://example-wiki.com/2024-01-01-migration",
+      "startTime": "2024-01-07 11:59pm PST",
+      "endTime": "2024-02-07 11:59pm PST"
+    },
+    {
+      "title": "You didn't use Sparo",
+      "details": [
+        "This repository recommends using Sparo"
+      ],
+      "detailsUrl": "https://example-wiki.com/sparo-benefits",
+      "condition": "scripts/isSparoEnabled.js",
+      "startTime": "2024-01-07 11:59pm PST",
+      "endTime": "2025-05-07 11:59pm PST"
+    }
+  ]
+}
